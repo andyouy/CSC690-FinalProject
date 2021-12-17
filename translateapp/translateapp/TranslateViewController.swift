@@ -65,7 +65,7 @@ class TranslateViewController: UIViewController, LanguagePickerDelegate, TargetL
         targetLanguage = language.abbreviation
     }
     
-    @IBAction func beginTranslation(_ sender: Any) {
+    @IBAction func beginTranslation(_ sender: UIButton) {
         print("in translation")
         translator.Translate(origin: originLanguage, target: targetLanguage, source: sourceText.text ?? "empty") { (result) in DispatchQueue.main.async {
             self.targetText.text = "\(result)"
