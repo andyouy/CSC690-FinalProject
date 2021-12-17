@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069C7341A8076EBA694A0D6539541A57 /* SwiftGoogleTranslate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D63B44AD3BB32936F714D3178DEFC /* SwiftGoogleTranslate-dummy.m */; };
+		24C4D4D6712ED48A170890F94A291FF5 /* SwiftGoogleTranslate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2EA3C448AA777B4F09A1ACA8AA22D4 /* SwiftGoogleTranslate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25E347796055195D5CA89A8C84A63F6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4D6BB4B179A474953E00CEDCDA39629D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7EF1F9795E32E90D02CCD435E297654E /* Pods-translateapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BC44A2FE444CEC4AFD0B4071DA064 /* Pods-translateapp-dummy.m */; };
+		9CAFA7547DAEB0AA873375E12826EC8C /* Pods-translateapp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C4A4A607AFC6C3C7828567B1533B /* Pods-translateapp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4978C103112C3F40331020824FCAF91 /* SwiftGoogleTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797BC03679DDCC6B3FB0ABD58BF9837D /* SwiftGoogleTranslate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CCAFBFB9D4269775E7800DD473DDF90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBDEC8A4DA7B5EB8EBE537B9C369D098;
+			remoteInfo = SwiftGoogleTranslate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E60511FCCFF4903A8C3A345B09472A6 /* SwiftGoogleTranslate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGoogleTranslate.release.xcconfig; sourceTree = "<group>"; };
+		23E4154539C60E23D9C564DFFC6EEB7D /* Pods-translateapp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-translateapp"; path = Pods_translateapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EAC885D20DCAC8FE2A811D55BB7380 /* Pods-translateapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-translateapp-frameworks.sh"; sourceTree = "<group>"; };
+		40EE5F8D6C96E4AE700B4E07449EDBF8 /* SwiftGoogleTranslate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftGoogleTranslate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		553AF042477C42AFFC4019CCB96FCB73 /* Pods-translateapp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-translateapp-Info.plist"; sourceTree = "<group>"; };
+		591B216442DD278C3C532EE4442014BF /* Pods-translateapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-translateapp.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		797BC03679DDCC6B3FB0ABD58BF9837D /* SwiftGoogleTranslate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftGoogleTranslate.swift; path = SwiftGoogleTranslate/Sources/SwiftGoogleTranslate.swift; sourceTree = "<group>"; };
+		8B5D63B44AD3BB32936F714D3178DEFC /* SwiftGoogleTranslate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftGoogleTranslate-dummy.m"; sourceTree = "<group>"; };
+		974A1598B781D4F29DB6B915E9847254 /* SwiftGoogleTranslate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftGoogleTranslate-Info.plist"; sourceTree = "<group>"; };
+		99DAFC1D6E46B2CC40D9B9B647C0D2AB /* Pods-translateapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-translateapp.release.xcconfig"; sourceTree = "<group>"; };
+		9C1162AC4118988F0DE8952F1ED4C9D5 /* Pods-translateapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-translateapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B790C4A4A607AFC6C3C7828567B1533B /* Pods-translateapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-translateapp-umbrella.h"; sourceTree = "<group>"; };
+		BBB74EB90271412E604E6350A6B3F302 /* SwiftGoogleTranslate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGoogleTranslate.debug.xcconfig; sourceTree = "<group>"; };
+		C971DEDDBD803A27C820F761ADB70357 /* Pods-translateapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-translateapp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6D5264A605375A5FA00EB0E25673ABD /* SwiftGoogleTranslate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGoogleTranslate-prefix.pch"; sourceTree = "<group>"; };
+		E8495CD72AC1D498E31C48B30BD07C39 /* SwiftGoogleTranslate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftGoogleTranslate.modulemap; sourceTree = "<group>"; };
+		F35BC44A2FE444CEC4AFD0B4071DA064 /* Pods-translateapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-translateapp-dummy.m"; sourceTree = "<group>"; };
+		FDC6EAE89A366D8E8A4DE2F731D0668D /* Pods-translateapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-translateapp.debug.xcconfig"; sourceTree = "<group>"; };
+		FE2EA3C448AA777B4F09A1ACA8AA22D4 /* SwiftGoogleTranslate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGoogleTranslate-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AB0F0E378B0C4CDE471F3A42940DE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E347796055195D5CA89A8C84A63F6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905BECE24D05B8DCB61183D77E7D0A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6BB4B179A474953E00CEDCDA39629D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45343C5994C4D7E9D603D268CFBFD698 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8495CD72AC1D498E31C48B30BD07C39 /* SwiftGoogleTranslate.modulemap */,
+				8B5D63B44AD3BB32936F714D3178DEFC /* SwiftGoogleTranslate-dummy.m */,
+				974A1598B781D4F29DB6B915E9847254 /* SwiftGoogleTranslate-Info.plist */,
+				E6D5264A605375A5FA00EB0E25673ABD /* SwiftGoogleTranslate-prefix.pch */,
+				FE2EA3C448AA777B4F09A1ACA8AA22D4 /* SwiftGoogleTranslate-umbrella.h */,
+				BBB74EB90271412E604E6350A6B3F302 /* SwiftGoogleTranslate.debug.xcconfig */,
+				1E60511FCCFF4903A8C3A345B09472A6 /* SwiftGoogleTranslate.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGoogleTranslate";
+			sourceTree = "<group>";
+		};
+		4C18F9BFE4F11EFC390727888937400F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23E4154539C60E23D9C564DFFC6EEB7D /* Pods-translateapp */,
+				40EE5F8D6C96E4AE700B4E07449EDBF8 /* SwiftGoogleTranslate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55B0F5986378CD6107B1A84F04F18F80 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4B9B73D45FF1CFB9587E82C33C802E /* Pods-translateapp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D084057AE9CEA77FFD242594A4D4F6D /* SwiftGoogleTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				797BC03679DDCC6B3FB0ABD58BF9837D /* SwiftGoogleTranslate.swift */,
+				45343C5994C4D7E9D603D268CFBFD698 /* Support Files */,
+			);
+			path = SwiftGoogleTranslate;
+			sourceTree = "<group>";
+		};
+		CE4B9B73D45FF1CFB9587E82C33C802E /* Pods-translateapp */ = {
+			isa = PBXGroup;
+			children = (
+				591B216442DD278C3C532EE4442014BF /* Pods-translateapp.modulemap */,
+				C971DEDDBD803A27C820F761ADB70357 /* Pods-translateapp-acknowledgements.markdown */,
+				9C1162AC4118988F0DE8952F1ED4C9D5 /* Pods-translateapp-acknowledgements.plist */,
+				F35BC44A2FE444CEC4AFD0B4071DA064 /* Pods-translateapp-dummy.m */,
+				40EAC885D20DCAC8FE2A811D55BB7380 /* Pods-translateapp-frameworks.sh */,
+				553AF042477C42AFFC4019CCB96FCB73 /* Pods-translateapp-Info.plist */,
+				B790C4A4A607AFC6C3C7828567B1533B /* Pods-translateapp-umbrella.h */,
+				FDC6EAE89A366D8E8A4DE2F731D0668D /* Pods-translateapp.debug.xcconfig */,
+				99DAFC1D6E46B2CC40D9B9B647C0D2AB /* Pods-translateapp.release.xcconfig */,
+			);
+			name = "Pods-translateapp";
+			path = "Target Support Files/Pods-translateapp";
+			sourceTree = "<group>";
+		};
+		CE809C5DF829B52E75F426FEF07CA6FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D084057AE9CEA77FFD242594A4D4F6D /* SwiftGoogleTranslate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CE809C5DF829B52E75F426FEF07CA6FC /* Pods */,
+				4C18F9BFE4F11EFC390727888937400F /* Products */,
+				55B0F5986378CD6107B1A84F04F18F80 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8992B3F935619697CC02B2B87E1B9190 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C4D4D6712ED48A170890F94A291FF5 /* SwiftGoogleTranslate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8302E04138886EADDCC04972CC81365 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CAFA7547DAEB0AA873375E12826EC8C /* Pods-translateapp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CBDEC8A4DA7B5EB8EBE537B9C369D098 /* SwiftGoogleTranslate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471B73E0129DDF60F6FFDE7D83F8F943 /* Build configuration list for PBXNativeTarget "SwiftGoogleTranslate" */;
+			buildPhases = (
+				8992B3F935619697CC02B2B87E1B9190 /* Headers */,
+				56E61E42EB4C28F1B2C53D9C449C79D7 /* Sources */,
+				905BECE24D05B8DCB61183D77E7D0A73 /* Frameworks */,
+				8F3E3E729E2A992533F94B585DD93A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGoogleTranslate;
+			productName = SwiftGoogleTranslate;
+			productReference = 40EE5F8D6C96E4AE700B4E07449EDBF8 /* SwiftGoogleTranslate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8FDB2C8D8BFF674C6EA8920927FF604 /* Pods-translateapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EBAF55BD5C89CFCCFBAAE6D7F18370 /* Build configuration list for PBXNativeTarget "Pods-translateapp" */;
+			buildPhases = (
+				D8302E04138886EADDCC04972CC81365 /* Headers */,
+				0FDA239D723AD014899D76DDFE590DAE /* Sources */,
+				5AB0F0E378B0C4CDE471F3A42940DE9B /* Frameworks */,
+				0768C3C2A7DA948DE731E1871A314EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ECEC8F5E9639E1401B1271A52646A9A /* PBXTargetDependency */,
+			);
+			name = "Pods-translateapp";
+			productName = Pods_translateapp;
+			productReference = 23E4154539C60E23D9C564DFFC6EEB7D /* Pods-translateapp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4C18F9BFE4F11EFC390727888937400F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8FDB2C8D8BFF674C6EA8920927FF604 /* Pods-translateapp */,
+				CBDEC8A4DA7B5EB8EBE537B9C369D098 /* SwiftGoogleTranslate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0768C3C2A7DA948DE731E1871A314EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3E3E729E2A992533F94B585DD93A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FDA239D723AD014899D76DDFE590DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF1F9795E32E90D02CCD435E297654E /* Pods-translateapp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E61E42EB4C28F1B2C53D9C449C79D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4978C103112C3F40331020824FCAF91 /* SwiftGoogleTranslate.swift in Sources */,
+				069C7341A8076EBA694A0D6539541A57 /* SwiftGoogleTranslate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ECEC8F5E9639E1401B1271A52646A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGoogleTranslate;
+			target = CBDEC8A4DA7B5EB8EBE537B9C369D098 /* SwiftGoogleTranslate */;
+			targetProxy = 9CCAFBFB9D4269775E7800DD473DDF90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13871C2EA0FA216AB6D04AB3A62A1463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DAFC1D6E46B2CC40D9B9B647C0D2AB /* Pods-translateapp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-translateapp/Pods-translateapp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-translateapp/Pods-translateapp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB35A3C12DEFB1CCDB146679741C5DCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC6EAE89A366D8E8A4DE2F731D0668D /* Pods-translateapp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-translateapp/Pods-translateapp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-translateapp/Pods-translateapp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CEB525E8A1A1B7D91199007A8CEFACC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E60511FCCFF4903A8C3A345B09472A6 /* SwiftGoogleTranslate.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGoogleTranslate/SwiftGoogleTranslate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGoogleTranslate/SwiftGoogleTranslate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftGoogleTranslate/SwiftGoogleTranslate.modulemap";
+				PRODUCT_MODULE_NAME = SwiftGoogleTranslate;
+				PRODUCT_NAME = SwiftGoogleTranslate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA7772DB15E80D28600B96C44A49C823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB74EB90271412E604E6350A6B3F302 /* SwiftGoogleTranslate.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGoogleTranslate/SwiftGoogleTranslate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGoogleTranslate/SwiftGoogleTranslate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftGoogleTranslate/SwiftGoogleTranslate.modulemap";
+				PRODUCT_MODULE_NAME = SwiftGoogleTranslate;
+				PRODUCT_NAME = SwiftGoogleTranslate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28EBAF55BD5C89CFCCFBAAE6D7F18370 /* Build configuration list for PBXNativeTarget "Pods-translateapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB35A3C12DEFB1CCDB146679741C5DCF /* Debug */,
+				13871C2EA0FA216AB6D04AB3A62A1463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471B73E0129DDF60F6FFDE7D83F8F943 /* Build configuration list for PBXNativeTarget "SwiftGoogleTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7772DB15E80D28600B96C44A49C823 /* Debug */,
+				CEB525E8A1A1B7D91199007A8CEFACC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

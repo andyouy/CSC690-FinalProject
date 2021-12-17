@@ -1,0 +1,16 @@
+PODS:
+  - SwiftGoogleTranslate (0.2.1)
+
+DEPENDENCIES:
+  - SwiftGoogleTranslate
+
+SPEC REPOS:
+  trunk:
+    - SwiftGoogleTranslate
+
+SPEC CHECKSUMS:
+  SwiftGoogleTranslate: 96960d3548e800e15b347518afca546d2edc8519
+
+PODFILE CHECKSUM: 2890ae573698bc2a0f4c5ddf9d8aabc8252dffdb
+
+COCOAPODS: 1.11.2
